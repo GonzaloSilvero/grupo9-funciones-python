@@ -1,4 +1,4 @@
-from funciones.SumaSpahn import sumarspahn
+from funciones.sumaspahn import sumarspahn
 
 def test_sumarspahn():
     assert sumarspahn(3, 5) == 8
