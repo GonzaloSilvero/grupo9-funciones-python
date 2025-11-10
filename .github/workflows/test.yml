@@ -20,4 +20,5 @@ jobs:
          pip install pytest
      - name: Ejecutar pruebas
        run: |
-         pytest -v
+         # **CORRECCIÓN:** Agrega el directorio actual (raíz del repo) a la ruta de Python.
+         PYTHONPATH=. pytest -v
