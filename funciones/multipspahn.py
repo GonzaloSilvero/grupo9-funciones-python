@@ -1,3 +1,4 @@
-def multipspahn(a, b):
-    """Devuelve la multiplicación de dos números."""
-    return a * b
+#funciones/potencia.py
+def potencia(base, exponente):
+ """Devuelve la base elevada al exponente."""
+ return base ** exponente

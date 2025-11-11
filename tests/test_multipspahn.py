@@ -1,5 +1,6 @@
-from funciones.multipspahn import multipspahn
+#tests/test_potencia.py
 
-def test_multipspahn():
-    assert multipspahn(3, 5) == 15
-    assert multipspahn(-2, 2) == -4
+from funciones.potencia import potencia
+def test_potencia():
+ assert potencia(2, 3) == 8
+ assert potencia(5, 0)
